@@ -200,6 +200,8 @@ ul.abtContainer {
   background-position: center;
 }
 .left {
+  display: flex;
+  justify-content: center;
   flex-basis: 40%;
 }
 .left img {
@@ -207,7 +209,7 @@ ul.abtContainer {
   height: 250px;
   border-radius: 50%;
   position: relative;
-  left: 10%;
+  /* left: 10%; */
 }
 .right {
   flex-basis: 60%;
@@ -215,7 +217,7 @@ ul.abtContainer {
 
 .abtbtn {
   position: absolute;
-  top: 90%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -90%);
   background: var(--primary-color);
